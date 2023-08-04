@@ -15,6 +15,8 @@
 		ED456B942A7CD5DD0075EB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED456B922A7CD5DD0075EB33 /* LaunchScreen.storyboard */; };
 		ED456B9F2A7CD5DE0075EB33 /* To_Do_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED456B9E2A7CD5DE0075EB33 /* To_Do_AppTests.swift */; };
 		ED456BAA2A7CD5DE0075EB33 /* To_Do_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED456BA92A7CD5DE0075EB33 /* To_Do_AppUITests.swift */; };
+		ED456BBC2A7CD61C0075EB33 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED456BBA2A7CD61C0075EB33 /* ListTableViewCell.swift */; };
+		ED456BBD2A7CD61C0075EB33 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED456BBB2A7CD61C0075EB33 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED456BA52A7CD5DE0075EB33 /* To Do AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED456BA92A7CD5DE0075EB33 /* To_Do_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_AppUITests.swift; sourceTree = "<group>"; };
 		ED456BAB2A7CD5DE0075EB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED456BBA2A7CD61C0075EB33 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		ED456BBB2A7CD61C0075EB33 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				ED456B872A7CD5DC0075EB33 /* AppDelegate.swift */,
 				ED456B892A7CD5DC0075EB33 /* SceneDelegate.swift */,
 				ED456B8B2A7CD5DC0075EB33 /* ViewController.swift */,
+				ED456BBA2A7CD61C0075EB33 /* ListTableViewCell.swift */,
+				ED456BBB2A7CD61C0075EB33 /* ListTableViewCell.xib */,
 				ED456B8D2A7CD5DC0075EB33 /* Main.storyboard */,
 				ED456B902A7CD5DD0075EB33 /* Assets.xcassets */,
 				ED456B922A7CD5DD0075EB33 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED456B942A7CD5DD0075EB33 /* LaunchScreen.storyboard in Resources */,
+				ED456BBD2A7CD61C0075EB33 /* ListTableViewCell.xib in Resources */,
 				ED456B912A7CD5DD0075EB33 /* Assets.xcassets in Resources */,
 				ED456B8F2A7CD5DC0075EB33 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED456B8C2A7CD5DC0075EB33 /* ViewController.swift in Sources */,
+				ED456BBC2A7CD61C0075EB33 /* ListTableViewCell.swift in Sources */,
 				ED456B882A7CD5DC0075EB33 /* AppDelegate.swift in Sources */,
 				ED456B8A2A7CD5DC0075EB33 /* SceneDelegate.swift in Sources */,
 			);
